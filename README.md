@@ -57,7 +57,7 @@ The confusion matrix of KNN (with k = 2) is better than the confusion matrix for
     
     - is sensitive to the choice of k-value.
 
-For KNN, $L^2$ distance is a better choice when the data has many irrelevant features and $L^1$ distance is also less affected by outliers than $L^2$ distance.
-L2 distance is a good choice when the features are continuous. 
+For KNN, $L^2$ distance is a better choice when the data has many irrelevant features and $L^1$ distance is less affected by outliers than $L^2$ distance.
+$L^2$ distance is a good choice when the features are continuous. 
 
 For spam email classification, $L^1$ distance may be a better choice than $L^2$ distance because spam email data may have many irrelevant features or features with different scales, such as the presence or absence of certain words or characters, the length of the email, etc. In spam email classification, there may be some emails that are very different from the majority of emails in the dataset, such as emails containing a large number of icons or links. Thus, we can see that the accuracy for $L^1$ is better than $L^2$ distance
