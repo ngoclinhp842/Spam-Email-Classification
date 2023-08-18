@@ -1,8 +1,6 @@
 '''email_preprocessor.py
 Preprocess Enron email dataset into features for use in supervised learning algorithms
 Michelle Phan
-CS 251/2 Data Analysis Visualization
-Spring 2023
 '''
 import re
 import os
